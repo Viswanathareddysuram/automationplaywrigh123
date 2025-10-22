@@ -8,7 +8,7 @@ test("Handle dropdowns", async ({page})=>{
 await page.goto("https://testautomationpractice.blogspot.com/");
 
 
-//multiple ways select drop downs ----
+//multiple ways select drop downs -------
 //await page.locator('#country').selectOption({label:'India'}); //label/visibale text
 //await page.locator('#country').selectOption("India");// visiable text
 //await page.locator('#country').selectOption({value:'uk'});// value attribute
