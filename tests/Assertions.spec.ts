@@ -27,7 +27,8 @@ const emailfild=await page.locator('#Email');
 await emailfild.fill('test@123');
 await expect(emailfild).toHaveValue('test@123'); 
 
-//toHaveCount
+//toHaveCount--
+
 
 
 }
